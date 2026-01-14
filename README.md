@@ -24,11 +24,13 @@ cp -r .agent/ /path/to/your/workspace/
 
 
 ## 🚀 已集成的 Skills
-- Skills数量：18个
+- Skills数量：33个
 - Skills调用方式：`@[skill-name]` 或 `/skill-name`
 - Skills来源
   - https://github.com/anthropics/skills
   - https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+  - https://github.com/obra/superpowers
+  - https://github.com/OthmanAdi/planning-with-files
 
 ### 📄 文档与办公
 - **`@[pdf]`**: PDF 读取、合并、拆分及生成
@@ -37,6 +39,29 @@ cp -r .agent/ /path/to/your/workspace/
 - **`@[xlsx]`**: Excel 表格处理、公式计算与财务模型
 - **`@[doc-coauthoring]`**: 交互式文档编写助手
 - **`@[internal-comms]`**: 企业内部沟通稿件生成
+
+### 🧠 核心思维与规划
+- **`@[brainstorming]`**: 创意生成与需求澄清，在编码前明确意图
+- **`@[planning-with-files]`**: Manus 风格的文件任务规划（task_plan.md, findings.md）
+- **`@[writing-plans]`**: 编写详细的实施计划
+- **`@[executing-plans]`**: 执行已有的实施计划
+- **`@[using-superpowers]`**: 引导如何查找和使用最佳 Skill
+
+### ⚙️ 开发全流程
+- **`@[test-driven-development]`**: TDD 开发模式，先写测试再写代码
+- **`@[systematic-debugging]`**: 系统化调试方法论，根因分析优先
+- **`@[verification-before-completion]`**: 任务完成前的严格自我验证
+- **`@[finishing-a-development-branch]`**: 开发分支收尾工作（合并、清理）
+
+### 🤝 代码协作与审查
+- **`@[requesting-code-review]`**: 发起代码审查请求，检查清单
+- **`@[receiving-code-review]`**: 处理代码审查反馈，批判性思考
+- **`@[using-git-worktrees]`**: 使用 Git Worktree 进行环境隔离
+
+### 🤖 高级 Agent 能力
+- **`@[subagent-driven-development]`**: 子 Agent 驱动开发，处理拆分的独立任务
+- **`@[dispatching-parallel-agents]`**: 并行分发 Agent 处理多任务
+- **`@[writing-skills]`**: 辅助编写或测试新的 Skill
 
 ### 🎨 设计与创意
 - **`@[canvas-design]`**: 极简主义平面设计 (海报/封面)
