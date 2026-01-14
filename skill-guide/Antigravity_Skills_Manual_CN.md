@@ -1,4 +1,3 @@
-
 # Antigravity Skills 用户手册
 
 本文档详细介绍了当前工作区中所有可用的 Skill (技能)。这些 Skill 提供了从文档处理、艺术创作到全栈开发和测试的广泛能力。
@@ -16,11 +15,11 @@
 5. [DOCX (Word 文档处理)](#5-docx-word-文档处理)
 6. [Frontend Design (前段设计)](#6-frontend-design-前端设计)
 7. [Internal Comms (内部沟通)](#7-internal-comms-内部沟通)
-8. [MCP Builder (MCP 服务构建)](#8-mcp-builder-mcp-服务构建)
-9. [PDF (PDF 处理)](#9-pdf-pdf-处理)
-10. [PPTX (演示文稿)](#10-pptx-演示文稿)
-11. [Skill Creator (技能创建)](#11-skill-creator-技能创建)
-12. [Skill Migrator (技能迁移)](#12-skill-migrator-技能迁移)
+8. [NotebookLM (知识库问答)](#8-notebooklm-知识库问答)
+9. [MCP Builder (MCP 服务构建)](#9-mcp-builder-mcp-服务构建)
+10. [PDF (PDF 处理)](#10-pdf-pdf-处理)
+11. [PPTX (演示文稿)](#11-pptx-演示文稿)
+12. [Skill Creator (技能创建)](#12-skill-creator-技能创建)
 13. [Slack GIF Creator (Slack 动图制作)](#13-slack-gif-creator-slack-动图制作)
 14. [Theme Factory (主题工厂)](#14-theme-factory-主题工厂)
 15. [Web Artifacts Builder (Web 应用构建)](#15-web-artifacts-builder-web-应用构建)
@@ -191,7 +190,29 @@
 
 ---
 
-### 8. MCP Builder (MCP 服务构建)
+### 8. NotebookLM (知识库问答)
+
+**调用方式**: `@[notebooklm]` 或 `/notebooklm`
+
+**简介**:
+直接查询 Google NotebookLM 笔记本，获取基于文档的、带有引用来源的确切答案。有效减少幻觉，通过浏览器自动化实现知识库交互。
+
+**核心能力**:
+- **知识检索**: 从用户上传的文档源（PDF, 文本等）中提取精准信息。
+- **引用溯源**: 提供答案对应的原文引用链接。
+- **持久化认证**: 管理浏览器会话，保持登录状态。
+
+**使用案例**:
+> **用户**: "根据我们的 RAG 技术白皮书，解释一下检索重排序的策略。"
+>
+> **Skill 响应**:
+> 1. 自动连接到 NotebookLM 中的 "RAG Research" 笔记本。
+> 2. 输入查询并获取包含引用的回答。
+> 3. 返回："根据白皮书第 12 页，策略 A 优于 B..." [Source 1]
+
+---
+
+### 9. MCP Builder (MCP 服务构建)
 
 **调用方式**: `@[mcp-builder]` 或 `/mcp-builder`
 
@@ -213,7 +234,7 @@
 
 ---
 
-### 9. PDF (PDF 处理)
+### 10. PDF (PDF 处理)
 
 **调用方式**: `@[pdf]` 或 `/pdf`
 
@@ -236,7 +257,7 @@
 
 ---
 
-### 10. PPTX (演示文稿)
+### 11. PPTX (演示文稿)
 
 **调用方式**: `@[pptx]` 或 `/pptx`
 
@@ -258,7 +279,7 @@
 
 ---
 
-### 11. Skill Creator (技能创建)
+### 12. Skill Creator (技能创建)
 
 **调用方式**: `@[skill-creator]` 或 `/skill-creator`
 
@@ -274,26 +295,6 @@
 >
 > **Skill 响应**:
 > 协助创建 `financial-analyst` skill 目录，规划 `analyze_report.py` 脚本，并编写 workflow 文件。
-
----
-
-### 12. Skill Migrator (技能迁移)
-
-**调用方式**: `@[skill-migrator]` 或 `/skill-migrator`
-
-**简介**:
-将旧版 Claude Code Skills 迁移到新的 Antigravity 格式。
-
-**核心能力**:
-- **批量迁移**: 自动转换目录结构。
-- **路径重写**: 修正资源引用路径。
-- **能力增强**: 将隐式指令转换为显式的工具调用。
-
-**使用案例**:
-> **用户**: "把旧的 `git-helper` skill 迁移过来。"
->
-> **Skill 响应**:
-> 自动创建新目录，复制脚本，更新 workflow 中的路径引用。
 
 ---
 
