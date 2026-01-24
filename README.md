@@ -92,12 +92,13 @@ Enter `@[skill-name]` or `/skill-name` in the chat box to invoke them, for examp
 - **View Manual**: For detailed usage, please refer to [docs/Antigravity_Skills_Manual.en.md](docs/Antigravity_Skills_Manual.en.md).
 - **Environment Dependencies**: Some skills rely on Python environments; please ensure your system has necessary libraries installed (e.g., `pdf2docx`, `pandas`, etc.).
 
-## 🚀 Integrated Skills
+## 🚀 Integrated Skills (Total: 49)
 
 ### 🎨 Creative & Design
 These skills focus on visual expression, UI/UX design, and artistic creation.
 - **`@[algorithmic-art]`**: Create algorithmic and generative art using p5.js code.
 - **`@[canvas-design]`**: Create posters and artworks (PNG/PDF output) based on design philosophies.
+- **`@[json-canvas]`**: Create and edit JSON Canvas files (`.canvas`) with nodes, edges, and groups (commonly used in Obsidian).
 - **`@[frontend-design]`**: Create high-quality, production-grade frontend interfaces and Web components.
 - **`@[ui-ux-pro-max]`**: Professional UI/UX design intelligence, providing full design schemes for colors, fonts, layouts, etc.
 - **`@[web-artifacts-builder]`**: Build complex, modern Web apps (based on React, Tailwind, Shadcn/ui).
@@ -118,6 +119,8 @@ These skills cover the full lifecycle of coding, testing, debugging, and code re
 ### 📄 Documentation & Office
 These skills are used for handling professional documents and office needs in various formats.
 - **`@[doc-coauthoring]`**: Guide users through collaborative writing of structured documents (proposals, tech specs, etc.).
+- **`@[obsidian-markdown]`**: Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, and properties.
+- **`@[obsidian-bases]`**: Create and edit Obsidian Bases (`.base`) files with views, filters, formulas, and summaries.
 - **`@[docx]`**: Create, edit, and analyze Word documents.
 - **`@[xlsx]`**: Create, edit, and analyze Excel spreadsheets (supporting formulas and charts).
 - **`@[pptx]`**: Create and modify PowerPoint presentations.
@@ -171,6 +174,11 @@ This project integrates core ideas or skill implementations from the following e
 - **[Planning with Files](https://github.com/OthmanAdi/planning-with-files)**: Implements a Manus-style file-based task planning system to enhance persistent memory for complex tasks.
 - **[NotebookLM](https://github.com/PleasePrompto/notebooklm-skill)**: Knowledge retrieval and Q&A skill implementation based on Google NotebookLM.
 - **[Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)**: In-depth Context Engineering skills covering compression, optimization, and degradation handling.
+- **[Obsidian Skills](https://github.com/kepano/obsidian-skills)**: Professional Obsidian integration skills, including JSON Canvas and enhanced Markdown support.
+
+## 🤝 How to Contribute
+
+We welcome contributions! Please refer to our **[CONTRIBUTING.md](CONTRIBUTING.md)** for detailed guidelines on how to add new skills, improve documentation, and report issues.
 
 ## 📄 License
 

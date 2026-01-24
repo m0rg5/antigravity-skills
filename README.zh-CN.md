@@ -93,12 +93,13 @@ ln -s ~/antigravity-skills/skills/* .agent/skills/
 - **环境依赖**: 部分技能依赖 Python 环境，请确保系统已安装必要的库（如 `pdf2docx`, `pandas` 等）。
 
 
-## 🚀 已集成的 Skills
+## 🚀 已集成的 Skills (共 49 个)
 
 ### 🎨 创意与设计 (Creative & Design)
 这些技能专注于视觉表现、UI/UX 设计和艺术创作。
 - **`@[algorithmic-art]`**: 使用 p5.js 代码创作算法艺术、生成艺术
 - **`@[canvas-design]`**: 基于设计哲学创建海报、艺术作品（输出 PNG/PDF）
+- **`@[json-canvas]`**: 创建和编辑 JSON Canvas 文件 (`.canvas`)，支持节点、边连线和分组（常用于 Obsidian）
 - **`@[frontend-design]`**: 创建高质量、生产级的各种前端界面和 Web 组件
 - **`@[ui-ux-pro-max]`**: 专业的 UI/UX 设计智能，提供配色、字体、布局等全套设计方案
 - **`@[web-artifacts-builder]`**: 构建复杂、现代化的 Web 应用（基于 React, Tailwind, Shadcn/ui）
@@ -119,6 +120,8 @@ ln -s ~/antigravity-skills/skills/* .agent/skills/
 ### 📄 文档与办公 (Documentation & Office)
 这些技能用于处理各种格式的专业文档和办公需求。
 - **`@[doc-coauthoring]`**: 引导用户进行结构化文档（提案、技术规范等）的协作编写
+- **`@[obsidian-markdown]`**: 创建和编辑 Obsidian 风格的 Markdown，支持双链、嵌入、Callouts 等特有语法
+- **`@[obsidian-bases]`**: 创建和编辑 Obsidian Bases (`.base`) 文件，支持数据库、过滤和公式计算
 - **`@[docx]`**: 创建、编辑和分析 Word 文档
 - **`@[xlsx]`**: 创建、编辑和分析 Excel 电子表格（支持公式、图表）
 - **`@[pptx]`**: 创建和修改 PowerPoint 演示文稿
@@ -172,6 +175,11 @@ ln -s ~/antigravity-skills/skills/* .agent/skills/
 - **[Planning with Files](https://github.com/OthmanAdi/planning-with-files)**: 实现类似 Manus 的文件式任务规划系统，提升复杂任务的持久化记忆。
 - **[NotebookLM](https://github.com/PleasePrompto/notebooklm-skill)**: 基于 Google NotebookLM 的知识检索与问答技能实现。
 - **[Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)**: 深入的上下文工程（Context Engineering）技能，涵盖压缩、优化与降级处理。
+- **[Obsidian Skills](https://github.com/kepano/obsidian-skills)**: 专业的 Obsidian 集成技能，包含 JSON Canvas 与增强型 Markdown 支持。
+
+## 🤝 如何贡献 (How to Contribute)
+
+我们欢迎任何形式的贡献！请参考 **[CONTRIBUTING.md](CONTRIBUTING.md)** 查看关于如何添加新技能、改进文档和报告问题的详细指南。
 
 ## 📄 开源协议 (License)
 

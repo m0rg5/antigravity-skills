@@ -1,7 +1,7 @@
 # Antigravity Skills User Manual
 
-**Document Version:** v2.0.1  
-**Total Skills:** 46
+**Document Version:** v2.1.0  
+**Total Skills:** 49
 
 This document provides a detailed introduction to all available Skills in the current workspace. These Skills offer a wide range of capabilities, from document processing and artistic creation to full-stack development and testing.
 
@@ -29,34 +29,37 @@ You can invoke these skills in dialogue via `@[skill-name]` or `/skill-name`.
 16. [Webapp Testing](#16-webapp-testing)
 17. [XLSX (Excel Processing)](#17-xlsx-excel-processing)
 18. [UI/UX Pro Max](#18-uiux-pro-max)
-19. [Brainstorming](#19-brainstorming)
-20. [Dispatching Parallel Agents](#20-dispatching-parallel-agents)
-21. [Executing Plans](#21-executing-plans)
-22. [Finishing a Development Branch](#22-finishing-a-development-branch)
-23. [Receiving Code Review](#23-receiving-code-review)
-24. [Requesting Code Review](#24-requesting-code-review)
-25. [Subagent Driven Development](#25-subagent-driven-development)
-26. [Systematic Debugging](#26-systematic-debugging)
-27. [Test Driven Development (TDD)](#27-test-driven-development-tdd)
-28. [Using Git Worktrees](#28-using-git-worktrees)
-29. [Using Superpowers](#29-using-superpowers)
-30. [Verification Before Completion](#30-verification-before-completion)
-31. [Writing Plans](#31-writing-plans)
-32. [Writing Skills](#32-writing-skills)
-33. [Planning with Files](#33-planning-with-files)
-34. [BDI Mental States](#34-bdi-mental-states)
-35. [Memory Systems](#35-memory-systems)
-36. [Filesystem Context](#36-filesystem-context)
-37. [Context Fundamentals](#37-context-fundamentals)
-38. [Context Optimization](#38-context-optimization)
-39. [Context Compression](#39-context-compression)
-40. [Context Degradation](#40-context-degradation)
-41. [Multi-Agent Patterns](#41-multi-agent-patterns)
-42. [Hosted Agents](#42-hosted-agents)
-43. [Tool Design](#43-tool-design)
-44. [Project Development](#44-project-development)
-45. [Evaluation (Basic)](#45-evaluation-basic)
-46. [Advanced Evaluation](#46-advanced-evaluation)
+19. [JSON Canvas (Canvas Creation)](#19-json-canvas-canvas-creation)
+20. [Obsidian Markdown](#20-obsidian-markdown)
+21. [Obsidian Bases](#21-obsidian-bases)
+22. [Brainstorming](#22-brainstorming)
+23. [Dispatching Parallel Agents](#23-dispatching-parallel-agents)
+24. [Executing Plans](#24-executing-plans)
+25. [Finishing a Development Branch](#25-finishing-a-development-branch)
+26. [Receiving Code Review](#26-receiving-code-review)
+27. [Requesting Code Review](#27-requesting-code-review)
+28. [Subagent Driven Development](#28-subagent-driven-development)
+29. [Systematic Debugging](#29-systematic-debugging)
+30. [Test Driven Development (TDD)](#30-test-driven-development-tdd)
+31. [Using Git Worktrees](#31-using-git-worktrees)
+32. [Using Superpowers](#32-using-superpowers)
+33. [Verification Before Completion](#33-verification-before-completion)
+34. [Writing Plans](#34-writing-plans)
+35. [Writing Skills](#35-writing-skills)
+36. [Planning with Files](#36-planning-with-files)
+37. [BDI Mental States](#37-bdi-mental-states)
+38. [Memory Systems](#38-memory-systems)
+39. [Filesystem Context](#39-filesystem-context)
+40. [Context Fundamentals](#40-context-fundamentals)
+41. [Context Optimization](#41-context-optimization)
+42. [Context Compression](#42-context-compression)
+43. [Context Degradation](#43-context-degradation)
+44. [Multi-Agent Patterns](#44-multi-agent-patterns)
+45. [Hosted Agents](#45-hosted-agents)
+46. [Tool Design](#46-tool-design)
+47. [Project Development](#47-project-development)
+48. [Evaluation (Basic)](#48-evaluation-basic)
+49. [Advanced Evaluation](#49-advanced-evaluation)
 
 ---
 
@@ -65,19 +68,17 @@ You can invoke these skills in dialogue via `@[skill-name]` or `/skill-name`.
 **Invocation**: `@[algorithmic-art]` or `/algorithmic-art`
 
 **Description**:
-Focuses on code-based generative art creation. It uses the p5.js library to create unique visual experiences through controlled randomness and mathematical algorithms, rather than simply copying existing art.
+Focuses on code-based generative art creation. It uses the p5.js library to create unique visual experiences through controlled randomness and mathematical algorithms.
 
 **Core Capabilities**:
-- **Create Algorithmic Philosophy**: Define unique aesthetic concepts for generative art (e.g., "Organic Turbulence", "Quantum Harmonics").
-- **Generate Interactive Art**: Create HTML widgets containing parameter controls and seed navigation, supporting real-time exploration and variant generation.
-- **Professional Craftsmanship**: Emphasize fine-tuning, color harmony, and algorithmic depth.
+- **Create Algorithmic Philosophy**: Define unique aesthetic concepts.
+- **Generate Interactive Art**: Create HTML widgets with parameter controls.
 
 **Use Case**:
-> **User**: "Please create a generative art background named 'Digital Pulse' for a tech conference, reflecting data flow and connectivity."
+> **User**: "Please create a generative art background named 'Digital Pulse'."
 >
 > **Skill Response**:
-> 1. Create a "Digital Pulse" algorithmic philosophy document defining visual rules (particle flow, network connections, neon colors).
-> 2. Generate an interactive HTML piece with adjustable parameters like "Flow Speed" and "Connection Density".
+> Generates an interactive HTML piece with adjustable parameters.
 
 ---
 
@@ -86,18 +87,17 @@ Focuses on code-based generative art creation. It uses the p5.js library to crea
 **Invocation**: `@[brand-guidelines]` or `/brand-guidelines`
 
 **Description**:
-Provides Anthropic's official brand visual identity guidelines to ensure generated documents, presentations, or designs comply with brand standards.
+Provides official brand visual identity guidelines to ensure compliance.
 
 **Core Capabilities**:
-- **Color Specifications**: Provides official color palettes (Dark background #141413, accent color #d97757, etc.).
-- **Typography Specifications**: Guides the use of Poppins (headings) and Lora (body) fonts.
-- **Style Application**: Applies brand elements to various Artifacts.
+- **Color Specifications**: Provides official color palettes.
+- **Typography Specifications**: Guides the use of standard fonts.
 
 **Use Case**:
-> **User**: "Help me beautify this slide deck using Anthropic's brand style."
+> **User**: "Help me beautify this slide deck using the brand style."
 >
 > **Skill Response**:
-> Applies official color schemes (Warm Dark or Light mode), adjusts fonts to Poppins/Lora, and standardizes chart colors.
+> Applies official color schemes and standardizes fonts.
 
 ---
 
@@ -106,19 +106,17 @@ Provides Anthropic's official brand visual identity guidelines to ensure generat
 **Invocation**: `@[canvas-design]` or `/canvas-design`
 
 **Description**:
-Used for creating high-quality static visual designs (posters, art pieces, covers). Emphasizes minimalism, typography design, and visual philosophy.
+Used for creating high-quality static visual designs (posters, covers).
 
 **Core Capabilities**:
-- **Design Philosophy Creation**: Define a visual language (e.g., "Brutalist Joy", "Geometric Silence").
-- **Canvas Creation**: Generate high-precision design work in PDF or PNG format.
-- **Font Management**: Support for loading custom fonts to enhance typographic quality.
+- **Design Philosophy Creation**: Define a visual language.
+- **Canvas Creation**: Generate high-precision design work.
 
 **Use Case**:
 > **User**: "Design a minimalist poster about the 'City of the Future'."
 >
 > **Skill Response**:
-> 1. Conceptualize the "Concrete Future" design philosophy (emphasizing negative space, brutalist lines).
-> 2. Generate a poster PDF containing architectural geometries and fine typography.
+> Conceptualizes the design philosophy and generates a poster PDF.
 
 ---
 
@@ -127,20 +125,17 @@ Used for creating high-quality static visual designs (posters, art pieces, cover
 **Invocation**: `@[doc-coauthoring]` or `/doc-coauthoring`
 
 **Description**:
-Assists users in writing high-quality documents (e.g., PRDs, design docs, proposals) through a structured guidance process.
+Assists users in writing high-quality documents through structured guidance.
 
 **Core Capabilities**:
-- **Context Collection**: Uncover user intent and background information through targeted questions.
-- **Structured Drafting**: Brainstorm, filter, and write section by section.
-- **Reader Perspective Testing**: Review the document from a reader's perspective to identify blind spots.
+- **Context Collection**: Uncover intent through targeted questions.
+- **Structured Drafting**: Write section by section.
 
 **Use Case**:
 > **User**: "I need to write a PRD for a new feature."
 >
 > **Skill Response**:
-> 1. Guide the user in answering questions about target users, core features, and constraints.
-> 2. Propose a PRD structure (Background, Goals, Solution, Metrics).
-> 3. Assist in writing and refining content chapter by chapter.
+> Guides the user through goals and constraints, assisting in writing content.
 
 ---
 
@@ -149,21 +144,17 @@ Assists users in writing high-quality documents (e.g., PRDs, design docs, propos
 **Invocation**: `@[docx]` or `/docx`
 
 **Description**:
-Handles the creation, editing, and analysis of Word documents. Supports complex Track Changes modes and underlying XML editing.
+Handles the creation, editing, and analysis of Word documents.
 
 **Core Capabilities**:
-- **Document Reading**: Extract text or convert to Markdown for analysis.
-- **Redlining**: Plan and implement batch revisions (Track Changes), suitable for contract or thesis modifications.
-- **OOXML Editing**: Directly manipulate underlying XML to handle complex formatting.
-- **New Document Creation**: Build documents from scratch using `docx-js`.
+- **Document Reading**: Extract text for analysis.
+- **Redlining**: Plan and implement batch revisions.
 
 **Use Case**:
-> **User**: "Review this contract `contract.docx`, change all '30-day' terms to '60 days', and enable Track Changes."
+> **User**: "Review this contract and change terms with Track Changes."
 >
 > **Skill Response**:
-> 1. Read the document and locate all "30-day" mentions.
-> 2. Use underlying scripts to batch-replace text and mark `<w:ins>` (insert) and `<w:del>` (delete) tags.
-> 3. Generate a new document with revision history.
+> Reads the document, replaces text, and generates a file with history.
 
 ---
 
@@ -172,18 +163,17 @@ Handles the creation, editing, and analysis of Word documents. Supports complex 
 **Invocation**: `@[frontend-design]` or `/frontend-design`
 
 **Description**:
-Builds frontend interfaces with unique aesthetics and production-grade quality. Avoids generic AI aesthetics, pursuing unique visual styles.
+Builds frontend interfaces with unique aesthetics and production-grade quality.
 
 **Core Capabilities**:
-- **Aesthetic Design**: Select unique themes (e.g., "Retro Futurism", "Magazine Layout style").
-- **Code Implementation**: Generate React/HTML/CSS code with delicate animations and interactions.
-- **Visual Differentiation**: Use non-standard fonts, unique layouts, and color schemes.
+- **Aesthetic Design**: Select unique themes.
+- **Code Implementation**: Generate React/HTML/CSS code.
 
 **Use Case**:
 > **User**: "Create a landing page for a new coffee brand."
 >
 > **Skill Response**:
-> Design a page with deep brown and cream tones, combined with serif fonts and parallax scrolling effects, reflecting premium artisanal quality.
+> Designs a page with premium tones and artisanal quality.
 
 ---
 
@@ -192,17 +182,17 @@ Builds frontend interfaces with unique aesthetics and production-grade quality. 
 **Invocation**: `@[internal-comms]` or `/internal-comms`
 
 **Description**:
-Drafts internal communication materials following corporate standards, such as weekly reports, announcements, FAQs, etc.
+Drafts internal communication materials following corporate standards.
 
 **Core Capabilities**:
-- **Template Application**: Includes standard formats like 3P (Progress, Plans, Problems), Newsletters, etc.
-- **Style Adaptation**: Ensures a professional tone that is clear and consistent with company culture.
+- **Template Application**: Includes standard formats.
+- **Style Adaptation**: Ensures professional tone.
 
 **Use Case**:
-> **User**: "Write an internal announcement about system maintenance next week."
+> **User**: "Write an announcement about system maintenance."
 >
 > **Skill Response**:
-> Uses a standard announcement template including time, impact scope, recommended actions, and contact info, with a formal yet considerate tone.
+> Uses a standard template with impact scope and contact info.
 
 ---
 
@@ -211,20 +201,17 @@ Drafts internal communication materials following corporate standards, such as w
 **Invocation**: `@[notebooklm]` or `/notebooklm`
 
 **Description**:
-Directly queries Google NotebookLM notebooks to obtain definitive answers grounded in documentation with citations. Effectively reduces hallucinations through browser-automated knowledge base interaction.
+Directly queries Google NotebookLM for answers grounded in documentation.
 
 **Core Capabilities**:
-- **Knowledge Retrieval**: Extract precise information from user-uploaded document sources (PDF, text, etc.).
-- **Citation Sourcing**: Provides clear citations from the original text for the answers.
-- **Persistent Authentication**: Manages browser sessions to maintain login status.
+- **Knowledge Retrieval**: Extract information from doc sources.
+- **Citation Sourcing**: Provides clear citations.
 
 **Use Case**:
-> **User**: "Based on our RAG technical white paper, explain the retrieval re-ranking strategy."
+> **User**: "Based on our white paper, explain the strategy."
 >
 > **Skill Response**:
-> 1. Automatically connect to the "RAG Research" notebook in NotebookLM.
-> 2. Input the query and obtain a cited answer.
-> 3. Return: "According to page 12 of the white paper, Strategy A is superior to B..." [Source 1]
+> Connects to the notebook and obtains a cited answer.
 
 ---
 
@@ -233,20 +220,17 @@ Directly queries Google NotebookLM notebooks to obtain definitive answers ground
 **Invocation**: `@[mcp-builder]` or `/mcp-builder`
 
 **Description**:
-Guides users in building Model Context Protocol (MCP) servers, enabling LLMs to connect with external data or tools.
+Guides users in building Model Context Protocol (MCP) servers.
 
 **Core Capabilities**:
-- **Architecture Planning**: Determine Resources, Tools, and Prompts.
-- **Code Scaffolding**: Provide implementation guidance using Python (FastMCP) or TypeScript SDK.
-- **Testing & Evaluation**: Generate test cases to verify MCP services.
+- **Architecture Planning**: Determine Resources and Tools.
+- **Testing & Evaluation**: Verify MCP services.
 
 **Use Case**:
-> **User**: "I want to create an MCP server that can check weather data."
+> **User**: "I want to create an MCP server for weather data."
 >
 > **Skill Response**:
-> 1. Plan the input/output schema for the `get_weather` tool.
-> 2. Provide a complete code implementation based on the Python SDK.
-> 3. Generate instructions for testing the server.
+> Plans schemas and provides implementation guidance.
 
 ---
 
@@ -255,21 +239,17 @@ Guides users in building Model Context Protocol (MCP) servers, enabling LLMs to 
 **Invocation**: `@[pdf]` or `/pdf`
 
 **Description**:
-A comprehensive PDF processing toolkit supporting reading, generation, merging, splitting, and form filling.
+Comprehensive PDF processing toolkit supporting generation and modifications.
 
 **Core Capabilities**:
-- **Content Extraction**: Extract text and tables (preserving layout).
-- **File Operations**: Merge, split, and rotate pages.
-- **PDF Generation**: Generate complex PDFs from code using ReportLab.
-- **Image Conversion**: PDF to Image or Image to PDF.
+- **Content Extraction**: Extract text and tables.
+- **File Operations**: Merge and split pages.
 
 **Use Case**:
-> **User**: "Merge these three reports into one and add a watermark to every page."
+> **User**: "Merge these reports and add a watermark."
 >
 > **Skill Response**:
-> 1. Merge files using `pypdf`.
-> 2. Create a watermark page and overlay it onto every page.
-> 3. Output the final file.
+> Merges files and overlays watermarks on every page.
 
 ---
 
@@ -278,20 +258,17 @@ A comprehensive PDF processing toolkit supporting reading, generation, merging, 
 **Invocation**: `@[pptx]` or `/pptx`
 
 **Description**:
-Creates and edits PowerPoint presentations. Supports generation from outlines, template application, and underlying modifications.
+Creates and edits PowerPoint presentations from various inputs.
 
 **Core Capabilities**:
-- **HTML to PPTX**: Convert HTML/CSS designs into native PPTX slides (supporting complex layouts).
-- **Template Filling**: Replace text and images based on existing PPTX templates.
-- **OOXML Editing**: Unpack PPTX to modify underlying XML (e.g., master slides, deep styles).
+- **HTML to PPTX**: Convert designs into native slides.
+- **Template Filling**: Replace text and images.
 
 **Use Case**:
-> **User**: "Generate a 10-slide presentation based on this Markdown outline."
+> **User**: "Generate a 10-slide presentation from this outline."
 >
 > **Skill Response**:
-> 1. Plan content and illustrations for each slide.
-> 2. Render each slide's layout using `html2pptx` technology stack.
-> 3. Generate the final .pptx file.
+> Plans content and renders layouts into a .pptx file.
 
 ---
 
@@ -303,14 +280,14 @@ Creates and edits PowerPoint presentations. Supports generation from outlines, t
 Guides users in creating high-quality Antigravity Skills.
 
 **Core Capabilities**:
-- **Structure Initialization**: Create standard `.agent/resources` and `.agent/workflows` structures.
-- **Best Practices**: Provide Workflow writing guides and design patterns.
+- **Structure Initialization**: Create standard structures.
+- **Best Practices**: Provide writing guides.
 
 **Use Case**:
-> **User**: "I want to create a Skill for automatically analyzing financial reports."
+> **User**: "I want to create a Skill for financial reports."
 >
 > **Skill Response**:
-> Assist in creating the `financial-analyst` skill directory, planning the `analyze_report.py` script, and writing the workflow file.
+> Assists in creating directory and coding core logic.
 
 ---
 
@@ -322,14 +299,14 @@ Guides users in creating high-quality Antigravity Skills.
 Creates animated GIFs optimized for Slack stickers.
 
 **Core Capabilities**:
-- **Parameter Optimization**: Control 128x128 size, frame rate, and color count to meet Slack limits.
-- **Animation Tools**: Provide Python drawing tools (PIL) to create custom animations (shaking, rotating, explosion effects).
+- **Parameter Optimization**: Control size and color count.
+- **Animation Tools**: Provide custom animation effects.
 
 **Use Case**:
-> **User**: "Make a 'Party Parrot' style nodding animation GIF."
+> **User**: "Make a 'Party Parrot' style nodding GIF."
 >
 > **Skill Response**:
-> Draw frame-by-frame animation using Python and export as a GIF with Slack-optimized parameters.
+> Draws frame-by-frame animation using Python.
 
 ---
 
@@ -338,17 +315,17 @@ Creates animated GIFs optimized for Slack stickers.
 **Invocation**: `@[theme-factory]` or `/theme-factory`
 
 **Description**:
-Applies professional design themes to Artifacts (PPTs, docs, web pages).
+Applies professional design themes to various Artifacts.
 
 **Core Capabilities**:
-- **Theme Library**: Provides 10+ preset themes (e.g., "Deep Sea", "Sunset", "Minimalist").
-- **Theme Generation**: Generate new color and font combinations based on descriptions.
+- **Theme Library**: Provides 10+ preset themes.
+- **Theme Generation**: Generate new combinations.
 
 **Use Case**:
 > **User**: "Change this PPT to a 'Cyberpunk' style."
 >
 > **Skill Response**:
-> Generate a theme configuration with neon colors and dark backgrounds, and apply it to the PPT generation process.
+> Generates theme config and applies it to the PPT.
 
 ---
 
@@ -357,20 +334,17 @@ Applies professional design themes to Artifacts (PPTs, docs, web pages).
 **Invocation**: `@[web-artifacts-builder]` or `/web-artifacts-builder`
 
 **Description**:
-Builds complex, multi-file React web applications supporting Tailwind CSS and shadcn/ui.
+Builds complex, multi-file React web applications.
 
 **Core Capabilities**:
-- **Project Scaffolding**: Initialize complete projects containing Vite, React, and Tailwind.
-- **Component Library Integration**: Pre-install shadcn/ui components.
-- **Single-file Bundling**: Bundle the entire app into a single HTML file for easy sharing and previewing.
+- **Project Scaffolding**: Initialize complete projects.
+- **Single-file Bundling**: Bundle entire app for sharing.
 
 **Use Case**:
-> **User**: "Create an interactive report app with a dashboard and data visualization."
+> **User**: "Create an interactive dashboard app."
 >
 > **Skill Response**:
-> 1. Initialize a React project.
-> 2. Build the interface using shadcn/ui and integrate Recharts.
-> 3. Bundle it as `dashboard.html` for delivery.
+> Builds interface with shadcn/ui and delivers HTML.
 
 ---
 
@@ -379,18 +353,17 @@ Builds complex, multi-file React web applications supporting Tailwind CSS and sh
 **Invocation**: `@[webapp-testing]` or `/webapp-testing`
 
 **Description**:
-Uses Playwright for automated testing and debugging of local web applications.
+Uses Playwright for automated testing of local web applications.
 
 **Core Capabilities**:
-- **Automated Testing**: Write Python scripts to simulate user actions (clicks, inputs).
-- **State Verification**: Take screenshots, inspect DOM elements, and verify network requests.
-- **Server Management**: Automatically start and manage local development servers.
+- **Automated Testing**: Simulate user actions.
+- **State Verification**: Inspect DOM and screenshots.
 
 **Use Case**:
-> **User**: "Test my login page to confirm that incorrect passwords trigger an error."
+> **User**: "Test my login page performance."
 >
 > **Skill Response**:
-> Write a Playwright script, start the local service, simulate a failed login, and take a screenshot to verify the error message.
+> Writes scripts to simulate logins and verify errors.
 
 ---
 
@@ -399,22 +372,17 @@ Uses Playwright for automated testing and debugging of local web applications.
 **Invocation**: `@[xlsx]` or `/xlsx`
 
 **Description**:
-Professional Excel processing supporting complex formulas, formatting preservation, and financial model construction.
+Professional Excel processing supporting complex formulas and models.
 
 **Core Capabilities**:
-- **Data Analysis**: Clean and analyze data using Pandas.
-- **Model Building**: Construct complex spreadsheets with formulas and formatting using openpyxl.
-- **Formula Recalculation**: Ensure precise formula updates using the LibreOffice engine.
-- **Financial Standards**: Follow investment banking formatting standards (blue text for inputs, black for formulas).
+- **Data Analysis**: Clean and analyze data.
+- **Formula Recalculation**: Precise updates.
 
 **Use Case**:
-> **User**: "Help me build a DCF valuation model with 5-year projections and sensitivity analysis."
+> **User**: "Help me build a DCF valuation model."
 >
 > **Skill Response**:
-> 1. Build assumption and projection sheets.
-> 2. Write Excel formulas to link cells (avoiding hard-coded numbers).
-> 3. Apply standard financial model formatting and color coding.
-> 4. Verify model results using recalculation scripts.
+> Builds assumption and projection sheets with links.
 
 ---
 
@@ -423,571 +391,551 @@ Professional Excel processing supporting complex formulas, formatting preservati
 **Invocation**: `@[ui-ux-pro-max]` or `/ui-ux-pro-max`
 
 **Description**:
-A powerful UI/UX design intelligence database and search engine covering 50+ design styles, 21+ color schemes, font pairings, and best practices across various tech stacks (React, Vue, Tailwind, etc.).
+A powerful UI/UX design intelligence database and search engine.
 
 **Core Capabilities**:
-- **Style Search**: Retrieve detailed characteristics and implementation parameters for specific styles (e.g., Glassmorphism, Brutalism).
-- **Asset Recommendations**: Provide color, font, and chart suggestions for specific industries (e.g., Fintech, SaaS).
-- **Tech Stack Guides**: Obtain implementation specifications for specific tech stacks (e.g., HTML-Tailwind, React).
+- **Style Search**: Retrieve characteristics for styles.
+- **Asset Recommendations**: Provide industry-specific suggestions.
 
 **Use Case**:
-> **User**: "I'm designing a clean, professional dashboard for a healthcare app."
+> **User**: "Designing a dashboard for healthcare."
 >
 > **Skill Response**:
-> 1. Search "healthcare" for color (typically blue/cyan) and font recommendations.
-> 2. Retrieve "clean professional" layout and style suggestions.
-> 3. Provide specific Tailwind CSS implementation parameters (shadows, rounded corners).
+> Retrieves color and layout recommendations for the industry.
 
 ---
 
-### 19. Brainstorming
+### 19. JSON Canvas (Canvas Creation)
+
+**Invocation**: `@[json-canvas]` or `/json-canvas`
+
+**Description**:
+Specifically used for creating and editing JSON Canvas files (.canvas).
+
+**Core Capabilities**:
+- **Canvas Construction**: Generate node networks.
+- **Visual Planning**: Connect nodes with edges and markers.
+
+**Use Case**:
+> **User**: "Draw a mind map for 'Microservices'."
+>
+> **Skill Response**:
+> Creates a .canvas file defining component connections.
+
+---
+
+### 20. Obsidian Markdown
+
+**Invocation**: `@[obsidian-markdown]` or `/obsidian-markdown`
+
+**Description**:
+Deep support for Obsidian's enhanced Markdown syntax.
+
+**Core Capabilities**:
+- **Bidirectional Links**: Correctly handle internal references.
+- **Enhanced Components**: Generate Callouts and diagrams.
+
+**Use Case**:
+> **User**: "Write a tech note with Callouts and links."
+>
+> **Skill Response**:
+> Generates doc containing code, warnings, and links.
+
+---
+
+### 21. Obsidian Bases
+
+**Invocation**: `@[obsidian-bases]` or `/obsidian-bases`
+
+**Description**:
+Used for handling Obsidian Bases (.base) database files.
+
+**Core Capabilities**:
+- **View Definition**: Create diversos display views.
+- **Dynamic Filtering**: Write complex filters and formulas.
+
+**Use Case**:
+> **User**: "Suggest a task management database."
+>
+> **Skill Response**:
+> Creates .base file with filters and calculated fields.
+
+---
+
+### 22. Brainstorming
 
 **Invocation**: `@[brainstorming]` or `/brainstorming`
 
 **Description**:
-A **mandatory** skill to use before any creative work (building components, adding features). Clarifies user intent, requirements, and design constraints through dialogue.
+Skill used before creative work to clarify intent and constraints.
 
 **Core Capabilities**:
-- **Requirement Clarification**: Uncover implicit requirements through multiple-choice questions or targeted inquiries.
-- **Solution Exploration**: Propose 2-3 different implementation paths before coding.
-- **Guiding Principle**: Refuse blind coding - "Measure twice, cut once."
+- **Requirement Clarification**: Uncover implicit needs.
+- **Solution Exploration**: Propose implementation paths.
 
 **Use Case**:
-> **User**: "I want to add an AI feature to my Todo app."
+> **User**: "I want to add AI to my Todo app."
 >
 > **Skill Response**:
-> 1. Ask for specific scenarios (Auto-generating tasks? Smart sorting? Voice input?).
-> 2. Propose three integration schemes: Local LLM, Cloud API, or Browser-side model.
-> 3. Assist in defining the MVP scope.
+> Asks scenarios and proposes integration schemes.
 
 ---
 
-### 20. Dispatching Parallel Agents
+### 23. Dispatching Parallel Agents
 
 **Invocation**: `@[dispatching-parallel-agents]` or `/dispatching-parallel-agents`
 
 **Description**:
-Dispatches multiple agents to handle tasks in parallel when faced with 2 or more independent, stateless tasks.
+Dispatches multiple agents to handle tasks in parallel.
 
 **Use Case**:
-> **User**: "Write Dockerfiles for the Python backend and React frontend of this project simultaneously; they don't depend on each other."
+> **User**: "Write Dockerfiles for backend and frontend simultaneously."
 >
 > **Skill Response**:
-> 1. Start Agent A to analyze the backend `requirements.txt` and write a `Dockerfile`.
-> 2. Start Agent B to analyze the frontend `package.json` and write a `Dockerfile`.
-> 3. Aggregate outputs and report completion.
+> Starts multiple environments to handle tasks independently.
 
 ---
 
-### 21. Executing Plans
+### 24. Executing Plans
 
 **Invocation**: `@[executing-plans]` or `/executing-plans`
 
 **Description**:
-Used to execute pre-written Implementation Plans. Guides execution step-by-step with checkpoints at critical nodes.
+Used to execute pre-written Implementation Plans with checkpoints.
 
 **Use Case**:
-> **User**: "Start executing the 'Database Layer Refactoring' plan we just created."
+> **User**: "Start executing the refactoring plan."
 >
 > **Skill Response**:
-> 1. Read `implementation_plan.md`.
-> 2. Prompt that `db.py` will be modified in Step 1.
-> 3. Execute modification and run verification.
-> 4. Ask if user wants to proceed to Step 2.
+> Guides execution step-by-step and runs verification.
 
 ---
 
-### 22. Finishing a Development Branch
+### 25. Finishing a Development Branch
 
 **Invocation**: `@[finishing-a-development-branch]` or `/finishing-a-development-branch`
 
 **Description**:
-Guides branch cleanup after feature completion and testing. Offers merge strategies, PR description generation, and branch deletion suggestions.
+Guides branch cleanup after feature completion and testing.
 
 **Use Case**:
-> **User**: "Feature development is done, tests passed, ready to merge."
+> **User**: "Feature development done, ready to merge."
 >
 > **Skill Response**:
-> 1. Check for uncommitted changes.
-> 2. Recommend Squash Merge to keep the main branch clean.
-> 3. Generate a PR description draft with key change points.
-> 4. Suggest deleting local and remote `feature/login` branches.
+> Recommends strategies and generates PR descriptions.
 
 ---
 
-### 23. Receiving Code Review
+### 26. Receiving Code Review
 
 **Invocation**: `@[receiving-code-review]` or `/receiving-code-review`
 
 **Description**:
-Helps users process code review feedback. Instead of blind implementation, it evaluates feedback, flags unreasonable suggestions, or seeks clarification on vague points.
+Helps users process and evaluate code review feedback.
 
 **Use Case**:
-> **User**: "A colleague reviewed and said this function is too long and needs splitting, but splitting would break context. Help me handle this."
+> **User**: "Colleague said function is too long, help me reply."
 >
 > **Skill Response**:
-> 1. Analyze code and feedback.
-> 2. Suggest response: Explain potential side effects of splitting and propose alternatives (e.g., detailed comments or folding regions).
-> 3. Or: Acknowledge the feedback is reasonable and demonstrate how to safely extract a sub-function.
+> Evaluates feedback and suggests technical responses.
 
 ---
 
-### 24. Requesting Code Review
+### 27. Requesting Code Review
 
 **Invocation**: `@[requesting-code-review]` or `/requesting-code-review`
 
 **Description**:
-Performs self-review before code submission. Verifies requirements, tests, and documentation, generating high-quality PR descriptions.
+Performs self-review and generates quality PR requests.
 
 **Use Case**:
-> **User**: "About to submit code, help me with a final check."
+> **User**: "About to submit code, help with final check."
 >
 > **Skill Response**:
-> 1. Run linting and test suites.
-> 2. Check if `README.md` is updated with new configuration items.
-> 3. Generate a review request with a "Change Summary" and "Test Coverage".
+> Runs verification and generates change summary.
 
 ---
 
-### 25. Subagent Driven Development
+### 28. Subagent Driven Development
 
 **Invocation**: `@[subagent-driven-development]` or `/subagent-driven-development`
 
 **Description**:
-Splits complex plans into independent subtasks and uses Subagents (like Browser Subagent) for independent execution, keeping the main session context clean.
+Uses Subagents for independent execution of subtasks.
 
 **Use Case**:
-> **User**: "Per the plan, check the Ant Design website for the latest Table component API and update our component."
+> **User**: "Per plan, check the API documentation updates."
 >
 > **Skill Response**:
-> 1. Launch Browser Subagent to find Table API on the official site.
-> 2. Return API changes (e.g., changes in `columns` property) to the main Agent.
-> 3. Main Agent modifies local code based on the data.
+> Launches Subagent and returns results to main session.
 
 ---
 
-### 26. Systematic Debugging
+### 29. Systematic Debugging
 
 **Invocation**: `@[systematic-debugging]` or `/systematic-debugging`
 
 **Description**:
-**Antigravity Core Debugging Methodology**. Guesses are strictly forbidden.
-1. **Root Cause Analysis**: Identify the root cause first.
-2. **Pattern Analysis**: Compare with similar working code.
-3. **Hypothesis Verification**: Propose hypothesis -> Minimal testing -> Verify.
-4. **Fix Implementation**: Only implement a fix after root cause is confirmed.
+Systematic debugging methodology avoiding blind guesses.
 
 **Use Case**:
-> **User**: "The production API occasionally reports 502 errors; not sure why."
+> **User**: "Production API occasional errors."
 >
 > **Skill Response**:
-> 1. **Refuse** attempts to restart or modify config blindly.
-> 2. Guide user to collect logs (Phase 1: Evidence Collection).
-> 3. Identify errors clustered in specific timeframes; hypothesize "Database Connection Pool Exhaustion" (Phase 3: Hypothesis).
-> 4. Write a script to verify connection peaks, then adjust pool parameters (Phase 4: Fix).
+> Guides evidence collection and hypothesis verification.
 
 ---
 
-### 27. Test Driven Development (TDD)
+### 30. Test Driven Development (TDD)
 
 **Invocation**: `@[test-driven-development]` or `/test-driven-development`
 
 **Description**:
-**Antigravity Core Development Pattern**.
-1. **Red**: Write a failing test (Reproduction script or Unit test).
-2. **Green**: Write the minimum code to make the test pass.
-3. **Refactor**: Optimize code structure.
+Follows TDD pattern: Red -> Green -> Refactor.
 
 **Use Case**:
-> **User**: "Help me write a function to parse this special date format."
+> **User**: "Write a function for this date format."
 >
 > **Skill Response**:
-> 1. Create `test_date_parser.py` with passing and failing cases (Red).
-> 2. Write simple regex parsing logic to ensure tests pass (Green).
-> 3. Optimize regex performance and handle boundary cases (Refactor).
+> Creates failing tests first, then implements code.
 
 ---
 
-### 28. Using Git Worktrees
+### 31. Using Git Worktrees
 
 **Invocation**: `@[using-git-worktrees]` or `/using-git-worktrees`
 
 **Description**:
-Create isolated Git Worktrees for new features or bug fixes without disturbing the current workspace (Checkout).
+Create isolated workspaces without disturbing current Checkout.
 
 **Use Case**:
-> **User**: "I'm halfway through development, but there's an urgent bug on Prod. I don't want to stash my current changes."
+> **User**: "I need to fix an urgent bug without stashing."
 >
 > **Skill Response**:
-> 1. Use `git worktree add ../hotfix-branch` to create a new directory.
-> 2. Fix the bug and commit in the new directory.
-> 3. Remove the Worktree and return to the original directory to continue development.
+> Creates new directory workspace for hotfix.
 
 ---
 
-### 29. Using Superpowers
+### 32. Using Superpowers
 
 **Invocation**: `@[using-superpowers]` or `/using-superpowers`
 
 **Description**:
-A Meta-Skill. Helps users discover available Skills and how to use them correctly at the start of a session. Guides users to "Think about the Skill before acting."
+Meta-Skill helping users discover available capabilities.
 
 **Use Case**:
-> **User**: "I want to make a PPT; which tool is best?"
+> **User**: "Which tool should I use for this presentation?"
 >
 > **Skill Response**:
-> Recommend `@[pptx]` for structure, `@[theme-factory]` for design themes, or `@[brand-guidelines]` if brand identity is needed.
+> Recommends skill combinations and explains usage.
 
 ---
 
-### 30. Verification Before Completion
+### 33. Verification Before Completion
 
 **Invocation**: `@[verification-before-completion]` or `/verification-before-completion`
 
 **Description**:
-The final line of defense before claiming "Task Complete." Enforces verification commands (Tests, Builds, Lint) and requires substantial evidence of success (Logs, Screenshots).
+The final check before claiming "Task Complete".
 
 **Use Case**:
-> **User**: "I think this bug is fixed."
+> **User**: "I think this issue is fixed."
 >
 > **Skill Response**:
-> 1. Run the reproduction script to confirm "Success".
-> 2. Run the full test suite to ensure no regressions.
-> 3. Only reply "Task Complete" once green checkmarks are seen.
+> Enforces verification commands and checks logs.
 
 ---
 
-### 31. Writing Plans
+### 34. Writing Plans
 
 **Invocation**: `@[writing-plans]` or `/writing-plans`
 
 **Description**:
-Write a detailed Implementation Plan before touching any code. Includes: Goal description, User Review Points, Detailed Change List, and Verification Plan.
+Write detailed Implementation Plans before touching code.
 
 **Use Case**:
-> **User**: "We need to migrate the database from SQLite to MySQL."
+> **User**: "Migrate database from SQLite to MySQL."
 >
 > **Skill Response**:
-> 1. Create `implementation_plan.md`.
-> 2. Plan steps: Schema export, Data migration script, App config modification.
-> 3. List specific files and verification methods (e.g., data consistency checks) for each step.
-> 4. Wait for user confirmation before starting execution.
+> Creates plan with steps, files, and validation.
 
 ---
 
-### 32. Writing Skills
+### 35. Writing Skills
 
 **Invocation**: `@[writing-skills]` or `/writing-skills`
 
 **Description**:
-Assists in writing or modifying Skills. Provides best practices, templates, and testing methods for Antigravity Skills.
+Assists in writing or modifying Skill definitions.
 
 **Use Case**:
-> **User**: "I want to write a new Skill for automatically optimizing SQL queries."
+> **User**: "I want to write a SQL optimization skill."
 >
 > **Skill Response**:
-> 1. Plan Skill structure (Workflow + Python Script).
-> 2. Write the `explain_analyzer.py` script.
-> 3. Create `.agent/workflows/sql-optimizer.md` defining triggers and parameters.
+> Plans Skill structure and definitions.
 
 ---
 
-### 33. Planning with Files
+### 36. Planning with Files
 
 **Invocation**: `@[planning-with-files]` or `/planning-with-files`
 
 **Description**:
-Implements a Manus-like task planning mode using `task_plan.md`, `findings.md`, and `progress.md` as persistent "disk memory" to bypass Context Window limits.
+Persistent task planning mode bypasses context limits.
 
 **Core Capabilities**:
-- **Persistent Memory**: Write key decisions, findings, and progress to files rather than leaving them in dialogue history.
-- **Task Phasing**: Enforce breaking complex tasks into Phases and marking them as complete.
-- **Error Learning**: Record encountered errors and tried solutions in the plan file to avoid repeating mistakes.
+- **Persistent Memory**: Track Decisions in files.
+- **Task Phasing**: Segregate task into phases.
 
 **Use Case**:
-> **User**: "I want to research migrating our Django project to FastAPI; this involves many file changes and investigation."
+> **User**: "Researching long-term project migration."
 >
 > **Skill Response**:
-> 1. Initialize `task_plan.md` (defining investigation, prototype, migration, testing phases).
-> 2. Initialize `findings.md` (to record API differences between Django and FastAPI).
-> 3. Initialize `progress.md` (to record operation logs).
+> Initializes plan and findings files for tracking.
 
 ---
 
-### 34. BDI Mental States
+### 37. BDI Mental States
 
 **Invocation**: `@[bdi-mental-states]` or `/bdi-mental-states`
 
 **Description**:
-Simulates the Belief-Desire-Intention (BDI) model. Enables agents to perform reasoning and decision-making more like humans, rather than simple request-response.
+Simulates human-like reasoning models for decision making.
 
 **Core Capabilities**:
-- **Belief Modeling**: Transform information into structured beliefs (RDF/Knowledge Graphs).
-- **Intention Generation**: Generate specific action intentions based on desires and beliefs.
-- **Dynamic Tuning**: Real-time updates of mental states based on new information.
+- **Belief Modeling**: Structured information maps.
+- **Intention Generation**: Derived action plans.
 
 **Use Case**:
-> **User**: "Simulate the mental activity of a rational buyer considering an EV."
+> **User**: "Simulate buying process mental activity."
 >
 > **Skill Response**:
-> 1. Establish initial beliefs ("Rising fuel prices", "Environmental impact is important").
-> 2. Generate desires ("Reduce travel costs", "Minimize carbon footprint").
-> 3. Form intentions ("Research Model 3 and BYD Han").
+> Establishes mental states and evolves them.
 
 ---
 
-### 35. Memory Systems
+### 38. Memory Systems
 
 **Invocation**: `@[memory-systems]` or `/memory-systems`
 
 **Description**:
-Builds a persistent long-term memory system for Agents, surpassing context limits for cross-session information storage and retrieval.
+Builds persistent long-term storage for Agents.
 
 **Core Capabilities**:
-- **Knowledge Graphs**: Build graph memory of entity relationships.
-- **Entity Tracking**: Continuously track key entities (e.g., user preferences, project status).
-- **Cross-session Persistence**: Save key info into databases or file systems.
+- **Knowledge Graphs**: Store entity relations.
+- **Cross-session storage**: Persistence for retrieval.
 
 **Use Case**:
-> **User**: "Remember my previous project preferences?"
+> **User**: "Recall my previous project stack preferences."
 >
 > **Skill Response**:
-> Retrieve from memory (e.g., "Prefers React", "Dislikes Tailwind") and apply to current task.
+> Retrieves stored preferences and applies them.
 
 ---
 
-### 36. Filesystem Context
+### 39. Filesystem Context
 
 **Invocation**: `@[filesystem-context]` or `/filesystem-context`
 
 **Description**:
-Leverages the filesystem as extended context storage. Suitable for processing massive info constrained by Token windows.
+Leverages filesystem to extend context capacity.
 
 **Core Capabilities**:
-- **Context Offloading**: Automatically write less-frequent info to files.
-- **Dynamic Loading**: Retrieve and load into the window on demand.
-- **Scratchpad Management**: Maintain the Agent's "Draft Paper" and "Notebook."
+- **Context Offloading**: Writing info to buffer files.
+- **Dynamic Loading**: Retrieve details on demand.
 
 **Use Case**:
-> **User**: "We need to analyze these 50 documents, but they're too long to fit."
+> **User**: "Analyze these 50 massive documents."
 >
 > **Skill Response**:
-> Suggest a filesystem summary strategy: generate summaries into the `summaries/` directory, reading details only when necessary.
+> Generates local summaries to bypass window limits.
 
 ---
 
-### 37. Context Fundamentals
+### 40. Context Fundamentals
 
 **Invocation**: `@[context-fundamentals]` or `/context-fundamentals`
 
 **Description**:
-A foundational tool for understanding LLM context mechanisms. Helps users understand "Why the model forgot" or "Why it's not following instructions."
+Foundational tool for understanding LLM context mechanisms.
 
 **Core Capabilities**:
-- **Window Analysis**: Explain current context window utilization.
-- **Attention Mechanisms**: Visualize or explain possible attention distributions.
-- **Prompt Debugging**: Diagnose if Prompt structure causes attention drift.
+- **Window Analysis**: Current utilization metrics.
+- **Prompt Debugging**: Attention distribution analysis.
 
 **Use Case**:
-> **User**: "The model ignores instructions in the middle of my Prompt."
+> **User**: "Model forgets instructions in long Prompts."
 >
 > **Skill Response**:
-> 1. Analyze Primacy/Recency Effects.
-> 2. Suggest moving critical instructions to the end (Recency).
-> 3. Use XML tags to reinforce instruction boundaries.
+> Provides structural optimization advice.
 
 ---
 
-### 38. Context Optimization
+### 41. Context Optimization
 
 **Invocation**: `@[context-optimization]` or `/context-optimization`
 
 **Description**:
-Focuses on reducing Token consumption and improving processing efficiency.
+Focuses on efficiency and reducing processing costs.
 
 **Core Capabilities**:
-- **KV-Cache Optimization**: Design cache-friendly Prompt structures.
-- **Partitioning Strategy**: Split long tasks into multiple independent small context tasks.
-- **Budget Management**: Set Token budgets and cleanup strategies for long dialogues.
+- **KV-Cache Optimization**: Prompt design for speed.
+- **Budget Management**: Token cleanup strategies.
 
 **Use Case**:
-> **User**: "This dialogue is too long; API costs are high and it's getting slow."
+> **User**: "Dialogue is getting slow and costly."
 >
 > **Skill Response**:
-> 1. Detect duplicate System Prompts; suggest Context Caching (if supported).
-> 2. Identify and remove redundant data blocks (e.g., old code files).
-> 3. Enable a rolling window strategy, keeping only recent N turns.
+> Identifies redundancies and performs pruning.
 
 ---
 
-### 39. Context Compression
+### 42. Context Compression
 
 **Invocation**: `@[context-compression]` or `/context-compression`
 
 **Description**:
-Compression techniques for ultra-long context, significantly reducing Tokens while retaining key info.
+Deep compression techniques while retaining key info.
 
 **Core Capabilities**:
-- **Summary Generation**: Recursively summarize long text.
-- **Information Extraction**: Extract key KV pairs from unstructured text.
-- **Semantic Compression**: Rewrite verbose content with more compact expressions.
+- **Summary Generation**: Recursive condensation.
+- **Information Extraction**: Parsing KV pairs.
 
 **Use Case**:
-> **User**: "Summarize this 100,000-word paper, keeping only core arguments and data as background."
+> **User**: "Summarize this 100k word document."
 >
 > **Skill Response**:
-> 1. Perform `compress` operation using recursive summarization.
-> 2. Replace original text with structured high-density summary (90% Token reduction).
-> 3. Ensure subsequent Q&A remains grounded in these core facts.
+> Replaces text with a structured dense summary.
 
 ---
 
-### 40. Context Degradation
+### 43. Context Degradation
 
 **Invocation**: `@[context-degradation]` or `/context-degradation`
 
 **Description**:
-Specially handles "Lost-in-the-Middle" issues in long contexts.
+Handles issues with long-term task performance decline.
 
 **Core Capabilities**:
-- **Degradation Diagnosis**: Detect if the model is hallucinating or ignoring instructions.
-- **Critical Info Reset**: Periodically restate critical instructions (System Prompt reinforcement).
-- **Context Refresh**: Guide users to open a new session to restore intelligence.
+- **Degradation Diagnosis**: Detecting hallucination trends.
+- **Context Refresh**: Guiding session restarts.
 
 **Use Case**:
-> **User**: "The Agent has become 'dumb'; it forgot the variable names I defined at the start."
+> **User**: "Agent is becoming unresponsive to early rules."
 >
 > **Skill Response**:
-> 1. Diagnose that context has reached 180k with uneven attention distribution.
-> 2. Suggest "Context Refresh": Summarize current progress and generate a new System Prompt.
-> 3. Guide user to start a new session with this Snapshot to restore reasoning.
+> Summarizes progress and performs a clean snapshot reset.
 
 ---
 
-### 41. Multi-Agent Patterns
+### 44. Multi-Agent Patterns
 
 **Invocation**: `@[multi-agent-patterns]` or `/multi-agent-patterns`
 
 **Description**:
-Designs and implements advanced Multi-Agent collaboration systems.
+Coordinates multiple active Agents in various patterns.
 
 **Core Capabilities**:
-- **Supervisor Pattern**: One master Agent coordinating multiple subordinate Agents.
-- **Swarm Pattern**: Multiple peer Agents self-organizing for collaboration.
-- **Handoffs**: Define context and task handoff protocols between Agents.
+- **Supervisor Pattern**: Centralized coordination.
+- **Handoffs**: Task transition protocols.
 
 **Use Case**:
-> **User**: "Design an Agent system for a software development team."
+> **User**: "Design a DEV/QA team agent system."
 >
 > **Skill Response**:
-> Design a workflow with PM, Dev, and QA roles, defining task distribution (PM) and verification (QA).
+> Defines roles and task distribution protocols.
 
 ---
 
-### 42. Hosted Agents
+### 45. Hosted Agents
 
 **Invocation**: `@[hosted-agents]` or `/hosted-agents`
 
 **Description**:
-Builds Agents that can run long-term in the background or on a server, detached from the current dialogue box.
+Builds and deploys long-term background Agents.
 
 **Core Capabilities**:
-- **Sandbox Environments**: Deploy Agents in Modal or Docker.
-- **Continuous Running**: Implement Agents for loop execution or scheduled tasks.
-- **API Encapsulation**: Wrap Agent capabilities as HTTP APIs.
+- **Sandbox Environments**: Deployment in containers.
+- **API Encapsulation**: Interface for external calls.
 
 **Use Case**:
-> **User**: "I need a bot to monitor GitHub Issues and reply automatically, running 24/7."
+> **User**: "Continuous Issue monitoring bot needed."
 >
 > **Skill Response**:
-> 1. Write Agent logic (Listen to webhooks -> Analyze issue -> Comment).
-> 2. Package it using Modal or Docker.
-> 3. Deploy to a cloud server as an independent Service.
+> Implements and deploys the service to a server.
 
 ---
 
-### 43. Tool Design
+### 46. Tool Design
 
 **Invocation**: `@[tool-design]` or `/tool-design`
 
 **Description**:
-Expert guide for designing high-quality Agent tools (Function Calling).
+Expert guide for designing high-quality Function tools.
 
 **Core Capabilities**:
-- **Interface Definition**: Write clear, unambiguous JSON Schemas.
-- **Fault-tolerant Design**: Design robust error handling and feedback mechanisms.
-- **Granularity Control**: Balance a tool's atomicity and ease of use.
+- **Interface Definition**: Unambiguous JSON Schemas.
+- **Fault-tolerance**: Robust error handling advice.
 
 **Use Case**:
-> **User**: "I want to add a database query tool for the Agent; what's the best design?"
+> **User**: "Best way to add database query tools?"
 >
 > **Skill Response**:
-> 1. Warning: Do not provide direct `execute_sql` permissions (dangerous and hallucination-prone).
-> 2. Suggest: Design semantic tools like `get_user_by_email(email)` or `search_orders(query)`.
-> 3. Provide JSON Schema definitions and Pydantic models.
+> Provides semantic designs and Pydantic models.
 
 ---
 
-### 44. Project Development
+### 47. Project Development
 
 **Invocation**: `@[project-development]` or `/project-development`
 
 **Description**:
-End-to-end guide for developing LLM-native applications.
+End-to-end framework for Agentic application development.
 
 **Core Capabilities**:
-- **Task Fit**: Evaluate if a task is suitable for LLM + Agent solutions.
-- **Tech Selection**: Choose models (Claude vs. GPT vs. Local), databases, and frameworks.
-- **Cost Estimation**: Estimate Token consumption and latency.
+- **Task Fit**: Assessing LLM suitability.
+- **Architecture Design**: Full pipeline construction.
 
 **Use Case**:
-> **User**: "I want to use an LLM for a legal contract review system. Where do I start?"
+> **User**: "Starting a legal contract review system."
 >
 > **Skill Response**:
-> 1. Step 1: Task-Fit evaluation (confirming legal clause review is within model capacity).
-> 2. Step 2: Architecture design (RAG for statutes + GPT-4 for logic review).
-> 3. Step 3: PoC prototype verification plan.
+> Guides through fit evaluation and prototype planning.
 
 ---
 
-### 45. Evaluation (Basic)
+### 48. Evaluation (Basic)
 
 **Invocation**: `@[evaluation]` or `/evaluation`
 
 **Description**:
-Establishes a foundational evaluation system for Agent systems.
+Establishes foundational evaluation systems for Agents.
 
 **Core Capabilities**:
-- **Test Set Construction**: Generate Golden Datasets.
-- **Metric Definition**: Define Accuracy, Recall, Hallucination rates, etc.
-- **Automated Execution**: Batch-run test cases.
+- **Test Set Construction**: Golden Dataset generation.
+- **Metric Definition**: Accuracy and recall benchmarks.
 
 **Use Case**:
-> **User**: "How do I know if my Prompt change made the Agent better or worse?"
+> **User**: "Did my prompt change help or hurt?"
 >
 > **Skill Response**:
-> 1. Create a CSV dataset with 50 typical user questions and standard answers.
-> 2. Define metrics (Accuracy, JSON format correctness).
-> 3. Run the `evaluation` script to compare score changes (+5% or -10%).
+> Runs batch tests and compares score deltas.
 
 ---
 
-### 46. Advanced Evaluation
+### 49. Advanced Evaluation
 
 **Invocation**: `@[advanced-evaluation]` or `/advanced-evaluation`
 
 **Description**:
-Implements deeper, model-based evaluation methods.
+Implements model-based and preference-based evaluations.
 
 **Core Capabilities**:
-- **LLM-as-a-Judge**: Use powerful models (e.g., Claude 3.5 Sonnet) to evaluate weaker model outputs.
-- **Pairwise Comparison**: Simulate human preference testing (Elo rating).
-- **Bias Analysis**: Detect potential biases in model outputs.
+- **LLM-as-a-Judge**: High-order model assessment.
+- **Bias Analysis**: Detecting output deviations.
 
 **Use Case**:
-> **User**: "I need to evaluate if generated marketing copy is creative; that's hard to judge with code."
+> **User**: "Evaluate creativity of marketing copy."
 >
 > **Skill Response**:
-> 1. Set up an LLM-as-a-Judge pipeline with Claude 3.5 Sonnet as the judge.
-> 2. Provide evaluation dimensions (Creativity, Logic, Fluency) and scoring rubrics (1-5 points).
-> 3. Have the judge score and comment on the smaller model's output.
+> Set up judging pipeline with feedback points.

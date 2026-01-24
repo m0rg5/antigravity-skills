@@ -1,37 +1,50 @@
-# 更新日志
+# Changelog
 
-本项目的所有重要变更都将记录在此文件中。
+All notable changes to this project will be documented in this file.
+
+## [v2.1.0] - 2026-01-24
+### Added
+- **3 New Skills**:
+  - `json-canvas`: Create and edit JSON Canvas files (compatible with Obsidian Canvas).
+  - `obsidian-markdown`: Support for Obsidian-flavored Markdown (Wikilinks, Callouts, etc.).
+  - `obsidian-bases`: Support for creating and editing Obsidian Bases database files.
+- **Multilingual Support**: Introduced a bilingual README system (English/Chinese) and an English manual `docs/Antigravity_Skills_Manual.en.md`.
+
+### Changed
+- **Documentation Restructuring**: Optimized the structure of `README.md` (English) and `README.zh-CN.md` (Simplified Chinese).
+- **Skill Index Update**: `skills_index.json` now aggregates metadata for all 49 skills.
+- **Version Bump**: Updated plugin version to v2.1.0.
 
 ## [v2.0.2] - 2026-01-23
-### 变更 (Changed)
-- **目录结构优化**: 将技能库从 `.agent/skills` 移至根目录 `skills/`，并重新组织了 `docs/`、`spec/` 和 `template/` 目录。
-- **文档全面改版**:
-  - 更新 `README.md` 以匹配新的目录结构。
-  - 在“快速开始”中引入 **Symlink (符号链接)** 安装方案，支持项目级与全局级安装。
-  - 完善 **兼容性 (Compatibility)** 模块，支持多款 AI 工具（Claude, Gemini, Cursor, Windsurf, Trae 等）的路径规范。
-  - 更新致谢部分 (Credits & Sources) 并增加描述说明。
+### Changed
+- **Directory Structure Optimization**: Moved the skills library from `.agent/skills` to the root `skills/` directory and reorganized `docs/`, `spec/`, and `template/` directories.
+- **Documentation Revamp**:
+  - Updated `README.md` to match the new directory structure.
+  - Introduced **Symlink (Symbolic Link)** installation method in "Quick Start", supporting both Project and Global levels.
+  - Enhanced **Compatibility** module, supporting path specifications for multiple AI tools (Claude, Gemini, Cursor, Windsurf, Trae, etc.).
+  - Updated Credits & Sources with detailed descriptions.
 
-### 新增 (Added)
-- **技能索引文件**: 自动生成 `skills_index.json`，汇总全量 46 个技能的元数据（ID、路径、名称、描述）。
-- **多工具支持**: 显式支持 GitHub Copilot、Windsurf、Trae 等 IDE 的技能加载。
+### Added
+- **Skill Index File**: Automatically generate `skills_index.json` summarizing metadata (ID, path, name, description) for 46 skills.
+- **Multi-tool Support**: Explicitly support skill loading paths for GitHub Copilot, Windsurf, Trae, and other IDEs.
 
-### 修复 (Fixed)
-- 更新了 `.gitignore`，防止 AI 助手运行目录（如 `.agent`, `.claude` 等）被误提交。
+### Fixed
+- Updated `.gitignore` to prevent AI assistant runtime directories (e.g., `.agent`, `.claude`) from being committed.
 
 ## [v2.0.1] - 2026-01-15
-### 新增 (Added)
-- **13 个高级认知与系统技能**:
-  - **核心认知**: `bdi-mental-states` (BDI认知模型), `memory-systems` (记忆系统), `filesystem-context` (文件系统上下文)
-  - **上下文工程**: `context-fundamentals` (基础), `context-optimization` (优化), `context-compression` (压缩), `context-degradation` (退化处理)
-  - **高级代理**: `multi-agent-patterns` (多Agent模式), `hosted-agents` (托管Agent)
-  - **系统设计与评估**: `tool-design` (工具设计), `project-development` (项目开发), `evaluation` (基础评估), `advanced-evaluation` (高级评估)
+### Added
+- **13 Advanced Cognition & System Skills**:
+  - **Core Cognition**: `bdi-mental-states` (BDI cognitive model), `memory-systems` (Memory systems), `filesystem-context` (Filesystem context).
+  - **Context Engineering**: Fundamentals, Optimization, Compression, and Degradation handling.
+  - **Advanced Agents**: `multi-agent-patterns` (Supervisor/Swarm), `hosted-agents`.
+  - **System Design & Evaluation**: Tool design, Project development, Basic and Advanced evaluation.
 
 ## [v2.0.0] - 2026-01-14
-### 发布 (Released)
-- **Antigravity 原生技能支持**: 建立 Antigravity 原生技能架构的重大版本发布。
-- **核心库**: 确立了 33 个基础技能，覆盖创意设计、工程开发、文档处理和任务规划四大领域。
+### Released
+- **Antigravity Native Skill Support**: Major release establishing the native Antigravity skill architecture.
+- **Core Library**: Established 33 foundational skills covering Creative Design, Engineering, Documentation, and Planning.
 
 ## [v1.0.0] - 2026-01-14
-### 发布 (Released)
-- **工作流标准支持**: 基于 Antigravity 工作流标准建立的初步技能支持。
-- **核心库**: 确立了 33 个基础技能，覆盖创意设计、工程开发、文档处理和任务规划四大领域。
+### Released
+- **Workflow Standard Support**: Initial skill support based on Antigravity workflow standards.
+- **Core Library**: Established 33 foundational skills covering Creative Design, Engineering, Documentation, and Planning.
