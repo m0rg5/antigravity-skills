@@ -176,6 +176,10 @@ This project integrates core ideas or skill implementations from the following e
 - **[Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)**: In-depth Context Engineering skills covering compression, optimization, and degradation handling.
 - **[Obsidian Skills](https://github.com/kepano/obsidian-skills)**: Professional Obsidian integration skills, including JSON Canvas and enhanced Markdown support.
 
+## 🛡️ Security Policy
+
+We take security seriously. Please refer to our [Security Policy](SECURITY.md) for information on supported versions and how to report vulnerabilities safely.
+
 ## 🤝 How to Contribute
 
 We welcome contributions! Please refer to our **[CONTRIBUTING.md](CONTRIBUTING.md)** for detailed guidelines on how to add new skills, improve documentation, and report issues.

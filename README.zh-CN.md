@@ -177,6 +177,10 @@ ln -s ~/antigravity-skills/skills/* .agent/skills/
 - **[Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)**: 深入的上下文工程（Context Engineering）技能，涵盖压缩、优化与降级处理。
 - **[Obsidian Skills](https://github.com/kepano/obsidian-skills)**: 专业的 Obsidian 集成技能，包含 JSON Canvas 与增强型 Markdown 支持。
 
+## 🛡️ 安全策略 (Security Policy)
+
+我们要非常重视安全性。请参阅我们的 [安全策略](SECURITY.md) 文档，了解受支持的版本以及如何安全地报告漏洞。
+
 ## 🤝 如何贡献 (How to Contribute)
 
 我们欢迎任何形式的贡献！请参考 **[CONTRIBUTING.md](CONTRIBUTING.md)** 查看关于如何添加新技能、改进文档和报告问题的详细指南。
