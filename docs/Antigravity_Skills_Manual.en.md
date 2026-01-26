@@ -1,7 +1,7 @@
 # Antigravity Skills User Manual
 
 **Document Version:** v2.1.0  
-**Total Skills:** 49
+**Total Skills:** 50
 
 This document provides a detailed introduction to all available Skills in the current workspace. These Skills offer a wide range of capabilities, from document processing and artistic creation to full-stack development and testing.
 
@@ -60,6 +60,7 @@ You can invoke these skills in dialogue via `@[skill-name]` or `/skill-name`.
 47. [Project Development](#47-project-development)
 48. [Evaluation (Basic)](#48-evaluation-basic)
 49. [Advanced Evaluation](#49-advanced-evaluation)
+50. [Remotion](#50-remotion)
 
 ---
 
@@ -939,3 +940,22 @@ Implements model-based and preference-based evaluations.
 >
 > **Skill Response**:
 > Set up judging pipeline with feedback points.
+
+---
+
+### 50. Remotion
+
+**Invocation**: `@[remotion]` or `/remotion`
+
+**Description**:
+Best practices for Remotion - Video creation in React.
+
+**Core Capabilities**:
+- **Video Composition**: Create videos using React components.
+- **Animation Patterns**: Typography, transitions, and 3D content.
+
+**Use Case**:
+> **User**: "Create a 15-second promo video with kinetic typography."
+>
+> **Skill Response**:
+> Generates React code using Remotion to render the video.

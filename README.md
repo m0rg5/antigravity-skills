@@ -92,7 +92,7 @@ Enter `@[skill-name]` or `/skill-name` in the chat box to invoke them, for examp
 - **View Manual**: For detailed usage, please refer to [docs/Antigravity_Skills_Manual.en.md](docs/Antigravity_Skills_Manual.en.md).
 - **Environment Dependencies**: Some skills rely on Python environments; please ensure your system has necessary libraries installed (e.g., `pdf2docx`, `pandas`, etc.).
 
-## 🚀 Integrated Skills (Total: 49)
+## 🚀 Integrated Skills (Total: 50)
 
 ### 🎨 Creative & Design
 These skills focus on visual expression, UI/UX design, and artistic creation.
@@ -104,6 +104,7 @@ These skills focus on visual expression, UI/UX design, and artistic creation.
 - **`@[web-artifacts-builder]`**: Build complex, modern Web apps (based on React, Tailwind, Shadcn/ui).
 - **`@[theme-factory]`**: Generate matching themes for documents, slides, HTML, etc.
 - **`@[brand-guidelines]`**: Apply Anthropic's official brand design specifications (colors, typography, etc.).
+- **`@[remotion]`**: Best practices for Remotion - Video creation in React.
 - **`@[slack-gif-creator]`**: Create high-quality animated GIFs optimized specifically for Slack.
 
 ### 🛠️ Development & Engineering
@@ -175,6 +176,7 @@ This project integrates core ideas or skill implementations from the following e
 - **[NotebookLM](https://github.com/PleasePrompto/notebooklm-skill)**: Knowledge retrieval and Q&A skill implementation based on Google NotebookLM.
 - **[Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)**: In-depth Context Engineering skills covering compression, optimization, and degradation handling.
 - **[Obsidian Skills](https://github.com/kepano/obsidian-skills)**: Professional Obsidian integration skills, including JSON Canvas and enhanced Markdown support.
+- **[Remotion Skills](https://github.com/remotion-dev/skills)**: Official Remotion skills for AI agents to create videos programmatically.
 
 ## 🛡️ Security Policy
 

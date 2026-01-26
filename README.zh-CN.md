@@ -93,7 +93,7 @@ ln -s ~/antigravity-skills/skills/* .agent/skills/
 - **环境依赖**: 部分技能依赖 Python 环境，请确保系统已安装必要的库（如 `pdf2docx`, `pandas` 等）。
 
 
-## 🚀 已集成的 Skills (共 49 个)
+## 🚀 已集成的 Skills (共 50 个)
 
 ### 🎨 创意与设计 (Creative & Design)
 这些技能专注于视觉表现、UI/UX 设计和艺术创作。
@@ -105,6 +105,7 @@ ln -s ~/antigravity-skills/skills/* .agent/skills/
 - **`@[web-artifacts-builder]`**: 构建复杂、现代化的 Web 应用（基于 React, Tailwind, Shadcn/ui）
 - **`@[theme-factory]`**: 为文档、幻灯片、HTML 等生成配套的主题风格
 - **`@[brand-guidelines]`**: 应用 Anthropic 官方品牌设计规范（颜色、排版等）
+- **`@[remotion]`**: Remotion 最佳实践 - 使用 React 创建视频。
 - **`@[slack-gif-creator]`**: 制作专用于 Slack 的高质量 GIF 动图
 
 ### 🛠️ 开发与工程 (Development & Engineering)
@@ -176,6 +177,7 @@ ln -s ~/antigravity-skills/skills/* .agent/skills/
 - **[NotebookLM](https://github.com/PleasePrompto/notebooklm-skill)**: 基于 Google NotebookLM 的知识检索与问答技能实现。
 - **[Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)**: 深入的上下文工程（Context Engineering）技能，涵盖压缩、优化与降级处理。
 - **[Obsidian Skills](https://github.com/kepano/obsidian-skills)**: 专业的 Obsidian 集成技能，包含 JSON Canvas 与增强型 Markdown 支持。
+- **[Remotion Skills](https://github.com/remotion-dev/skills)**: Remotion 官方提供的 AI Agent 技能，用于通过代码创建视频。
 
 ## 🛡️ 安全策略 (Security Policy)
 

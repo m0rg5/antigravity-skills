@@ -1,7 +1,7 @@
 # Antigravity Skills 用户手册
     
 文档版本: v2.1.0
-技能总数: 49 个
+技能总数: 50 个
     
 本文档详细介绍了当前工作区中所有可用的 Skill (技能)。这些 Skill 提供了从文档处理、艺术创作到全栈开发和测试的广泛能力。
 
@@ -60,6 +60,7 @@
 47. [Project Development (项目开发)](#47-project-development-项目开发)
 48. [Evaluation (基础评估)](#48-evaluation-基础评估)
 49. [Advanced Evaluation (高级评估)](#49-advanced-evaluation-高级评估)
+50. [Remotion (视频创作)](#50-remotion-视频创作)
 
 ---
 
@@ -959,3 +960,22 @@ LLM 原生应用系统的全周期开发与架构指导。
 >
 > **Skill 响应**:
 > 设置评测模型进行反馈点评与数据分析。
+
+---
+
+### 50. Remotion (视频创作)
+
+**调用方式**: `@[remotion]` 或 `/remotion`
+
+**简介**:
+Remotion 最佳实践 - 使用 React 创建视频。
+
+**核心能力**:
+- **视频合成**: 使用 React 组件创建视频。
+- **动画模式**: 提供排版、转场和 3D 内容的动画方案。
+
+**使用案例**:
+> **用户**: "制作一个 15 秒的动态排版宣传视频。"
+>
+> **Skill 响应**:
+> 生成 React 代码，使用 Remotion 渲染视频。
