@@ -114,7 +114,7 @@ Many skills in this project originate from excellent open-source communities. To
 
     > **Note**: The `ui-ux-pro-max` skill has a special directory structure and does not support automatic synchronization via script for now. Please use its official installation command `uipro init --ai antigravity` to install or update.
 
-## 🚀 Integrated Skills (Total: 55)
+## 🚀 Integrated Skills (Total: 57)
 
 ### 🎨 Creative & Design
 These skills focus on visual expression, UI/UX design, and artistic creation.
@@ -149,6 +149,8 @@ These skills are used for handling professional documents and office needs in va
 - **`@[doc-coauthoring]`**: Guide users through collaborative writing of structured documents (proposals, tech specs, etc.).
 - **`@[obsidian-markdown]`**: Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, and properties.
 - **`@[obsidian-bases]`**: Create and edit Obsidian Bases (`.base`) files with views, filters, formulas, and summaries.
+- **`@[obsidian-cli]`**: Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes from the command line.
+- **`@[defuddle]`**: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation.
 - **`@[docx]`**: Create, edit, and analyze Word documents.
 - **`@[xlsx]`**: Create, edit, and analyze Excel spreadsheets (supporting formulas and charts).
 - **`@[pptx]`**: Create and modify PowerPoint presentations.

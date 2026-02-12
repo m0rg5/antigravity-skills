@@ -66,6 +66,12 @@
     "description": "This skill should be used when the user asks to \"optimize context\", \"reduce token costs\", \"improve context efficiency\", \"implement KV-cache optimization\", \"partition context\", or mentions context limits, observation masking, context budgeting, or extending effective context capacity."
   },
   {
+    "id": "defuddle",
+    "path": "skills/defuddle",
+    "name": "defuddle",
+    "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page."
+  },
+  {
     "id": "dispatching-parallel-agents",
     "path": "skills/dispatching-parallel-agents",
     "name": "dispatching-parallel-agents",
@@ -160,6 +166,12 @@
     "path": "skills/obsidian-bases",
     "name": "obsidian-bases",
     "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian."
+  },
+  {
+    "id": "obsidian-cli",
+    "path": "skills/obsidian-cli",
+    "name": "obsidian-cli",
+    "description": "Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM."
   },
   {
     "id": "obsidian-markdown",
