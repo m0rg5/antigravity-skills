@@ -82,3 +82,8 @@ examples
 .codex
 .opencode
 .cursor
+
+# macOS custom folder icons
+Icon*
+Icon\r
+Icon?
